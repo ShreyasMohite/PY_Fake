@@ -10,6 +10,7 @@ from random import seed
 
 
 class All_Info:
+    
     def __init__(self,root):
         self.root=root
         self.root.title("Faker")
@@ -118,11 +119,6 @@ class All_Info:
                             w=fake.street_suffix()
                             f.write(str(i))
                             f.write(":   "+str(w)+"\n""\n")
-
-
-
-
-
 
 
 
@@ -404,18 +400,6 @@ class All_Info:
                             f.write(":   "+str(w)+"\n""\n")
 
                         
-
-
-                        
-
-
-                        
-                        
-
-                        
-
-                        
-
                       
 
                 with open("C:\\TEMP\\save.txt","r",encoding="utf-8") as f:
@@ -498,7 +482,6 @@ class All_Info:
         But_clear.bind("<Leave>",on_leave2)
 
 #==============================================================================================================================
-
 
 
 
